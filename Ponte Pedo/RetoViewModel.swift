@@ -11,7 +11,7 @@ import Foundation
 class RetoViewModel {
     
     let nombre: String
-    let descripcion: String
+    private(set) var descripcion: String
     let carta: Carta
     
     init(reto: Reto, cartaAsignada: Carta) {
@@ -23,15 +23,28 @@ class RetoViewModel {
     func isValid(retosDisponibles: [RetoViewModel]) -> Bool {
         return true
     }
+    
+    func prepareForDisplay(retosDisponibles: [RetoViewModel]) {
+        
+    }
 }
 
-class RetoUltimoRey: RetoViewModel {
-    override func isValid(retosDisponibles: [RetoViewModel]) -> Bool {
-        for reto in retosDisponibles {
-            if reto.carta.valor == Carta.Valor.Rey {
-                return false
-            }
+class RetoReyViewModel: RetoViewModel {
+    
+    /**
+       Cambia la descripcion cuando solamente queda un rey en los retos disponibles.
+     
+     - parameter retosDisponibles: recibe un arreglo de RetoViewModel
+     */
+    override func prepareForDisplay(retosDisponibles: [RetoViewModel]) {
+        let reyes = retosDisponibles.filter { (reto) -> Bool in
+            let valor = reto.carta.valor
+            return valor == .Rey
         }
-        return true
+        
+        guard reyes.count <= 0 else { return }
+        
+        descripcion = "otra descripcion"
     }
+    
 }

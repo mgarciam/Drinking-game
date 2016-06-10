@@ -69,8 +69,8 @@
 				F3567FA01D0865D90083494A /* Main.storyboard */,
 				F3567FAE1D0867650083494A /* Reto.swift */,
 				F3567FB61D0876970083494A /* Carta.swift */,
-				F3567FB21D0867930083494A /* RetosViewModel.swift */,
 				F3567FB81D089AAF0083494A /* RetoViewModel.swift */,
+				F3567FB21D0867930083494A /* RetosViewModel.swift */,
 				F3567FB01D08678A0083494A /* RetosModel.swift */,
 				F3567FA31D0865D90083494A /* Assets.xcassets */,
 				F3567FA51D0865D90083494A /* LaunchScreen.storyboard */,
@@ -307,6 +307,7 @@
 				F3567FAD1D0865D90083494A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

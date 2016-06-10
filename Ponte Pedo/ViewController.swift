@@ -8,7 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CartaView : UIView {
+    
+    @IBOutlet var tituloLabel: UILabel!
+    @IBOutlet var descripcionLabel: UILabel!
+    @IBOutlet var nombreRetoLabel: UILabel!
+    
+    func configure(titulo: String, descripcion: String, nombreRetoLabel: String) {
+        
+    }
+}
+
+class ViewController : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
