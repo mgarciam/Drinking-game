@@ -28,13 +28,13 @@
                                             <constraint firstAttribute="height" constant="18" id="xbe-Cg-drh"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebc-PC-cRQ">
-                                        <rect key="frame" x="166" y="121" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebc-PC-cRQ">
+                                        <rect key="frame" x="167" y="121" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhM-5l-7ar">
@@ -43,13 +43,13 @@
                                             <constraint firstAttribute="width" constant="50" id="YcZ-mb-HdA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFD-AB-gGZ">
-                                        <rect key="frame" x="166" y="200" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFD-AB-gGZ">
+                                        <rect key="frame" x="167" y="200" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -63,6 +63,7 @@
                                     <constraint firstItem="RhM-5l-7ar" firstAttribute="leading" secondItem="7AK-6h-Qlv" secondAttribute="leading" constant="318" id="Jca-MB-wwc"/>
                                     <constraint firstItem="GFD-AB-gGZ" firstAttribute="top" secondItem="7AK-6h-Qlv" secondAttribute="top" constant="200" id="OdZ-Ct-uzu"/>
                                     <constraint firstAttribute="bottom" secondItem="mB9-7f-e4x" secondAttribute="bottom" constant="633" id="Of8-8B-e6u"/>
+                                    <constraint firstItem="RhM-5l-7ar" firstAttribute="leading" secondItem="7AK-6h-Qlv" secondAttribute="leading" constant="314" id="P7o-Bg-doA"/>
                                     <constraint firstItem="RhM-5l-7ar" firstAttribute="top" secondItem="7AK-6h-Qlv" secondAttribute="top" constant="635" id="axv-Il-mZL"/>
                                     <constraint firstItem="mB9-7f-e4x" firstAttribute="leading" secondItem="7AK-6h-Qlv" secondAttribute="leading" constant="10" id="e5A-3O-QUG"/>
                                     <constraint firstItem="mB9-7f-e4x" firstAttribute="top" secondItem="7AK-6h-Qlv" secondAttribute="top" constant="25" id="fbG-c8-WRj"/>
@@ -81,6 +82,7 @@
                                     <outlet property="descripcionLabel" destination="Ebc-PC-cRQ" id="BM9-Tn-eCf"/>
                                     <outlet property="nombreRetoLabel" destination="GFD-AB-gGZ" id="agK-Y7-grR"/>
                                     <outlet property="tituloLabel" destination="mB9-7f-e4x" id="eU9-H1-98l"/>
+                                    <outlet property="tituloLabel2" destination="RhM-5l-7ar" id="7b4-zz-fmQ"/>
                                 </connections>
                             </view>
                         </subviews>

@@ -13,8 +13,9 @@ class CartaView : UIView {
     @IBOutlet var tituloLabel: UILabel!
     @IBOutlet var descripcionLabel: UILabel!
     @IBOutlet var nombreRetoLabel: UILabel!
+    @IBOutlet var tituloLabel2: UILabel!
     
-    func configure(titulo: String, descripcion: String, nombreRetoLabel: String) {
+    func configure(titulo: String, descripcion: String, nombreRetoLabel: String, tituloInferior: String) {
         
     }
 }
